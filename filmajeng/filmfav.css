@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background-color: pink;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+.movie-info {
+    background-color: pink;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    max-width: 800px;
+    padding: 1rem;
+}
+
+.movie-info img {
+    border-radius: 8px;
+    max-width: 200px;
+    margin-right: 1rem;
+}
+
+.details {
+    max-width: 500px;
+}
+
+
+.details h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
